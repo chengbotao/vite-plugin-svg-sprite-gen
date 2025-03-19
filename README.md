@@ -1,18 +1,18 @@
-# vite-plugin-svg-sprite-gen
+# @manzhixing/vite-plugin-svg-sprite-gen
 > **SVG Sprite Generator for Vite**
 
 ## Install
 
 ```bash
-npm install vite-plugin-svg-sprite-gen -D
+npm install @manzhixing/vite-plugin-svg-sprite-gen -D
 
 # OR
 
-yarn add vite-plugin-svg-sprite-gen -D
+yarn add @manzhixing/vite-plugin-svg-sprite-gen -D
 
 # OR
 
-pnpm add vite-plugin-svg-sprite-gen -D
+pnpm add @manzhixing/vite-plugin-svg-sprite-gen -D
 
 ```
 
@@ -24,7 +24,7 @@ pnpm add vite-plugin-svg-sprite-gen -D
 ```ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import SVGSpriteGen from 'vite-plugin-svg-sprite-gen'
+import SVGSpriteGen from '@manzhixing/vite-plugin-svg-sprite-gen'
 
 export default defineConfig({
     plugins: [vue(), SvgSpriteGen()]
@@ -48,7 +48,7 @@ import 'virtual:svg-sprite-gen'
 
 ```ts
 // ...
-import SVGSpriteGen from 'vite-plugin-svg-sprite-gen'
+import SVGSpriteGen from '@manzhixing/vite-plugin-svg-sprite-gen'
 
 export default defineConfig({
     plugins: [vue(), SvgSpriteGen({
